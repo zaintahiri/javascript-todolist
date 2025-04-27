@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <script defer src="./script.js"></script>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+      }
+
+      .container {
+        background-color: #515151;
+        padding: 10px;
+        border-radius: 8px;
+        width: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+        font-size: 16px;
+      }
+      .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        margin-top: 5px;
+      }
+      .record {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+        background-color: goldenrod;
+      }
+      .recordCompleted {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 5px;
+        background-color: green;
+      }
+      #records {
+        margin: 0px;
+        padding: 0px;
+      }
+      span {
+        width: 100%;
+        margin-right: 5px;
+        text-align: left;
+        padding: 3px;
+      }
+      .delete {
+        padding: 3px 5px;
+        margin: 1px;
+        border-radius: 8px;
+        border: 1px solid orange;
+        background-color: #cb2424;
+        color: #fff;
+        font-size: 12px;
+      }
+      .delete:hover {
+        background-color: #a81c1c;
+      }
+      input {
+        padding: 10px;
+        border-radius: 5px;
+        width: 100%;
+      }
+      button {
+        padding: 5px 25px;
+        margin: 1px;
+        border-radius: 0px 8px 8px 0px;
+        border: 1px solid orange;
+        background-color: #4f4feb;
+        color: #fff;
+      }
+      button:hover {
+        background-color: #2b2bac;
+      }
+      label {
+        width: 100%;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>To-Do-List</h2>
+      <div class="row">
+        <input type="text" placeholder="Add a new task" id="inputTask" />
+        <button id="btnAddTask">Add Task</button>
+      </div>
+      <ul id="records">
+        <!-- <div class="record">
+          <label>Watch Videos</label>
+          <button class="delete">Delete</button>
+        </div>
+        <div class="record">
+          <label>dfsdfasfsfasfasfasfsdf asdfasdf sdfasd</label>
+          <button class="delete">Delete</button>
+        </div>
+        <div class="record">
+          <label>Watch Videos</label>
+          <button class="delete">Delete</button>
+        </div> -->
+      </ul>
+    </div>
+  </body>
+</html>
