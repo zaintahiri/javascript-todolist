@@ -1,0 +1,17 @@
+[33mcommit 671c587d960f78de43cca32ca85c5cbedf77f207[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Zain ul Abdin <zainulabdin.uos@gmail.com>
+Date:   Mon Apr 28 00:08:04 2025 +0700
+
+    zain.txt file is updated
+
+[33mcommit 251577cd3c77253e14a3036b1068a2f9ef02719c[m
+Author: Zain ul Abdin <zainulabdin.uos@gmail.com>
+Date:   Sun Apr 27 23:55:29 2025 +0700
+
+    zain.txt file from folder one is at staging phase about to commit now using git commit -m command
+
+[33mcommit 69d4f2e6ea347d3bd070c5135c832be08f758d0f[m
+Author: Zain ul Abdin <zainulabdin.uos@gmail.com>
+Date:   Sun Apr 27 23:44:22 2025 +0700
+
+    this is first commit by zain for todolist repository
